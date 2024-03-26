@@ -10,3 +10,5 @@ D:\Projects\Test\Agenda_project\Agenda_project\bin\Debug\NivelStocareDate.pdb
 D:\Projects\Test\Agenda_project\Agenda_project\obj\Debug\Agenda_p.06E5DA32.Up2Date
 D:\Projects\Test\Agenda_project\Agenda_project\obj\Debug\Agenda_project.exe
 D:\Projects\Test\Agenda_project\Agenda_project\obj\Debug\Agenda_project.pdb
+D:\Projects\Test\Agenda_project\Agenda_project\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Projects\Test\Agenda_project\Agenda_project\bin\Debug\System.Configuration.ConfigurationManager.xml

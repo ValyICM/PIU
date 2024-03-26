@@ -1,6 +1,4 @@
 ﻿using LibrarieModele;
-using System.Collections.Generic;
-
 
 namespace NivelStocareDate
 {
@@ -28,28 +26,6 @@ namespace NivelStocareDate
         {
             nrActivitati = this.nrActivitati;
             return activitati;
-        }
-
-        public Agenda[] GetActivitati (string nume)
-        {
-            List <Agenda> activitatiGasite = new List <Agenda> ();
-
-            foreach (Agenda activitate in activitati)
-            {
-                if(activitate != null && activitate.Nume == nume)
-                {
-                    activitatiGasite.Add(activitate);
-                }
-            }
-            if (activitatiGasite.Count > 0)
-            {
-                return activitatiGasite.ToArray ();
-            }
-            else
-            {
-                return null;
-            }
-            
         }
     }
 

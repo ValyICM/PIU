@@ -4,3 +4,6 @@ D:\Projects\Test\Agenda_project\LibrarieModele\obj\Debug\LibrarieModele.csproj.A
 D:\Projects\Test\Agenda_project\LibrarieModele\obj\Debug\LibrarieModele.csproj.CoreCompileInputs.cache
 D:\Projects\Test\Agenda_project\LibrarieModele\obj\Debug\LibrarieModele.dll
 D:\Projects\Test\Agenda_project\LibrarieModele\obj\Debug\LibrarieModele.pdb
+D:\Projects\Test\Agenda_project\LibrarieModele\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Projects\Test\Agenda_project\LibrarieModele\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Projects\Test\Agenda_project\LibrarieModele\obj\Debug\Librarie.25DB272D.Up2Date

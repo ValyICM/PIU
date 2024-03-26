@@ -1,7 +1,7 @@
 ﻿using System;
+using System.Configuration;
 using LibrarieModele;
 using NivelStocareDate;
-
 
 namespace Agenda_project
 {
@@ -9,7 +9,8 @@ namespace Agenda_project
     {
         static void Main()
         {
-            AdministrareActivitati_Memorie adminActivitati = new AdministrareActivitati_Memorie();
+            string numeFisier = ConfigurationManager.AppSettings["NumeFisier"];
+            AdministrareActivitati_FisierText adminActivitati = new AdministrareActivitati_FisierText(numeFisier);
             Agenda activitateNoua = new Agenda();
             int nrActivitati = 0;
 
@@ -21,16 +22,13 @@ namespace Agenda_project
                 Console.WriteLine("C. Citire informatii activitate de la tastatura");
                 Console.WriteLine("I. Afisarea informatiilor despre ultima activitate introdusa ");
                 Console.WriteLine("A. Afisare activitati din fisier");
-                Console.WriteLine("S. Salvare activitate in vector de obiecte");
-                Console.WriteLine("P. Cauta activitatea dupa nume");
+                Console.WriteLine("S. Salvare activitate in fisier");
                 Console.WriteLine("X. Inchidere program\n");
-                
-
 
                 Console.WriteLine("Alegeti o optiune: ");
                 optiune = Console.ReadLine();
 
-                switch(optiune.ToUpper())
+                switch (optiune.ToUpper())
                 {
                     case "C":
                         activitateNoua = CitireActivitateTastatura();
@@ -41,42 +39,14 @@ namespace Agenda_project
                         break;
 
                     case "A":
-                        Agenda[] activitate = adminActivitati.GetActivitate(out nrActivitati);
+                        Agenda[] activitate = adminActivitati.GetActivitati(out nrActivitati);
                         AfisareActivitate(activitate, nrActivitati);
                         break;
 
                     case "S":
-                        int idActivitate = nrActivitati + 1;
-                        activitateNoua.Id = idActivitate; 
+                        int idActivitate = ++nrActivitati;
+                        activitateNoua.Id = idActivitate;
                         adminActivitati.AddActivitate(activitateNoua);
-
-                        break;
-
-                    case "P":
-                        Console.WriteLine("Introduceti numele activitatii: ");
-                        string numeActivitate = Console.ReadLine();
-
-                        Agenda[] activitatiGasite = adminActivitati.GetActivitati(numeActivitate);
-                        if (activitatiGasite != null)
-                        {
-                            if (activitatiGasite.Length > 0)
-                            {
-                                Console.WriteLine("Activitatile gasite cu numele \"" + numeActivitate + "\" sunt:");
-                                // Iterăm prin vectorul de activități găsite și le afișăm
-                                foreach (Agenda activitati in activitatiGasite)
-                                {
-                                    Console.WriteLine("Nume: " + activitati.Nume + ", Data: " + activitati.Data + ", Ora: " + activitati.Ora);
-                                }
-                            }
-                            else
-                            {
-                                Console.WriteLine("Nu s-a găsit nicio activitate cu numele \"" + numeActivitate + "\".");
-                            }
-                        }
-                        else
-                        {
-                            Console.WriteLine("Eroare la obtinerea activitatilor cu numele \"" + numeActivitate + "\".");
-                        }
                         break;
 
                     case "X":
@@ -84,9 +54,11 @@ namespace Agenda_project
                     default:
                         Console.WriteLine("Optiune inexistenta!");
                         break;
-                        
+
                 }
             } while (optiune.ToUpper() != "X");
+
+            Console.ReadKey();
         }
         public static Agenda CitireActivitateTastatura()
         {
@@ -99,7 +71,7 @@ namespace Agenda_project
             Console.WriteLine("Introduceti intervalul de ore destinat desfasurarii activitatii: [orele vor fi separate prin '->']");
             string ora = Console.ReadLine();
 
-            Agenda activitate = new Agenda(0,nume,data,ora);
+            Agenda activitate = new Agenda(0, nume, data, ora);
 
             return activitate;
         }
@@ -117,13 +89,11 @@ namespace Agenda_project
         public static void AfisareActivitate(Agenda[] activitate, int nrActivitate)
         {
             Console.WriteLine("Activitatile sunt: ");
-            for(int i = 0; i < nrActivitate; i++)
+            for (int i = 0; i < nrActivitate; i++)
             {
                 string infoActivitate = activitate[i].Info();
                 Console.WriteLine(infoActivitate);
             }
         }
-
     }
-    
 }
