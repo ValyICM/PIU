@@ -37,7 +37,7 @@ namespace LibrarieModele
         public Agenda(string linieFisier)
         {
             var dateFisier = linieFisier.Split(SEPARATOR_PRINCIPAL_FISIER);
-            this.Id = Convert.ToInt32(dateFisier[ID]);
+            Id = Convert.ToInt32(dateFisier[ID]);
             this.Nume = dateFisier[NUME];
             this.Data = dateFisier[DATA];
             this.Ora = dateFisier[ORA];

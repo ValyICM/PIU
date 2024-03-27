@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Configuration;
 using LibrarieModele;
 using NivelStocareDate;
 
@@ -9,8 +8,7 @@ namespace Agenda_project
     {
         static void Main()
         {
-            string numeFisier = ConfigurationManager.AppSettings["NumeFisier"];
-            AdministrareActivitati_FisierText adminActivitati = new AdministrareActivitati_FisierText(numeFisier);
+            AdministrareActivitati_FisierText adminActivitati = new AdministrareActivitati_FisierText("D:\\Projects\\Test\\Agenda_project\\Agenda_project\\numeFisier.txt");
             Agenda activitateNoua = new Agenda();
             int nrActivitati = 0;
 
@@ -23,6 +21,9 @@ namespace Agenda_project
                 Console.WriteLine("I. Afisarea informatiilor despre ultima activitate introdusa ");
                 Console.WriteLine("A. Afisare activitati din fisier");
                 Console.WriteLine("S. Salvare activitate in fisier");
+                Console.WriteLine("N. Cautare activitati dupa nume");
+                Console.WriteLine("K. Cautare activitati dupa ID");
+                Console.WriteLine("D. Cautare activitati dupa data");
                 Console.WriteLine("X. Inchidere program\n");
 
                 Console.WriteLine("Alegeti o optiune: ");
@@ -47,6 +48,24 @@ namespace Agenda_project
                         int idActivitate = ++nrActivitati;
                         activitateNoua.Id = idActivitate;
                         adminActivitati.AddActivitate(activitateNoua);
+                        break;
+
+                    case "N":
+                        Console.WriteLine("Introduceti numele pentru cautare:");
+                        string numeCautare = Console.ReadLine();
+                        adminActivitati.CautaActivitatiDupaCriteriu("nume", numeCautare);
+                        break;
+
+                    case "K":
+                        Console.WriteLine("Introduceti ID-ul pentru cautare:");
+                        string idCautare = Console.ReadLine();
+                        adminActivitati.CautaActivitatiDupaCriteriu("id", idCautare);
+                        break;
+
+                    case "D":
+                        Console.WriteLine("Introduceti data pentru cautare:");
+                        string dataCautare = Console.ReadLine();
+                        adminActivitati.CautaActivitatiDupaCriteriu("data", dataCautare);
                         break;
 
                     case "X":
