@@ -1,0 +1,17 @@
+D:\Projects\PIU-main\Agenda_project\Agenda_Forms\bin\Debug\Agenda_Forms.exe.config
+D:\Projects\PIU-main\Agenda_project\Agenda_Forms\bin\Debug\Agenda_Forms.exe
+D:\Projects\PIU-main\Agenda_project\Agenda_Forms\bin\Debug\Agenda_Forms.pdb
+D:\Projects\PIU-main\Agenda_project\Agenda_Forms\obj\Debug\Agenda_Forms.csproj.AssemblyReference.cache
+D:\Projects\PIU-main\Agenda_project\Agenda_Forms\obj\Debug\Agenda_Forms.Properties.Resources.resources
+D:\Projects\PIU-main\Agenda_project\Agenda_Forms\obj\Debug\Agenda_Forms.csproj.GenerateResource.cache
+D:\Projects\PIU-main\Agenda_project\Agenda_Forms\obj\Debug\Agenda_Forms.csproj.CoreCompileInputs.cache
+D:\Projects\PIU-main\Agenda_project\Agenda_Forms\obj\Debug\Agenda_Forms.exe
+D:\Projects\PIU-main\Agenda_project\Agenda_Forms\obj\Debug\Agenda_Forms.pdb
+D:\Projects\PIU-main\Agenda_project\Agenda_Forms\obj\Debug\Agenda_Forms.AgendaAdd.resources
+D:\Projects\PIU-main\Agenda_project\Agenda_Forms\obj\Debug\Agenda_Forms.Start.resources
+D:\Projects\PIU-main\Agenda_project\Agenda_Forms\obj\Debug\Agenda_Forms.Agenda.resources
+D:\Projects\PIU-main\Agenda_project\Agenda_Forms\bin\Debug\LibrarieModele.dll
+D:\Projects\PIU-main\Agenda_project\Agenda_Forms\bin\Debug\NivelStocareDate.dll
+D:\Projects\PIU-main\Agenda_project\Agenda_Forms\bin\Debug\LibrarieModele.pdb
+D:\Projects\PIU-main\Agenda_project\Agenda_Forms\bin\Debug\NivelStocareDate.pdb
+D:\Projects\PIU-main\Agenda_project\Agenda_Forms\obj\Debug\Agenda_F.ECDE4337.Up2Date
