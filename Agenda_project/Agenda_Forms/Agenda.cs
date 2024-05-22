@@ -24,9 +24,8 @@ namespace Agenda_Forms
             try
             {
                 
+                //citesc tot fisierul
                 string[] lines = File.ReadAllLines(filePath);
-
-                
 
                 int initialY = 100;
 
@@ -34,25 +33,25 @@ namespace Agenda_Forms
                 {
                     string[] fields = line.Split(',');
 
-                    // Afișează id-ul pe o linie
+                    // Afisez id-ul pe o linie
                     Label idLabel = new Label();
                     idLabel.Text = fields[0].Trim();
                     idLabel.Font = new Font("Lucida Fax", 16, FontStyle.Bold);
                     idLabel.AutoSize = true;
-                    idLabel.Anchor = AnchorStyles.Left | AnchorStyles.Top; // Aliniere la stânga sus
+                    idLabel.Anchor = AnchorStyles.Left | AnchorStyles.Top; // Aliniere stanga sus
                     idLabel.Location = new Point(20, initialY);
                     this.Controls.Add(idLabel);
 
-                    // Afișează numele pe aceeași linie, după id
+                    // Afisez numele pe aceeași linie, dupa id
                     Label nameLabel = new Label();
                     nameLabel.Text = fields[1].Trim();
                     nameLabel.Font = new Font("Lucida Fax", 16, FontStyle.Bold);
                     nameLabel.AutoSize = true;
-                    nameLabel.Anchor = AnchorStyles.Left | AnchorStyles.Top; // Aliniere la stânga sus
+                    nameLabel.Anchor = AnchorStyles.Left | AnchorStyles.Top; // Aliniere stanga sus
                     nameLabel.Location = new Point(60, initialY);
                     this.Controls.Add(nameLabel);
 
-                    // Afișează data și ora pe aceeași linie, după nume
+                    // Afisez data si ora pe aceeași linie, dupa nume
                     Label dateTimeLabel = new Label();
                     dateTimeLabel.Text = $"{fields[2].Trim()}    {fields[3].Trim()}";
                     dateTimeLabel.Font = new Font("Lucida Fax", 16, FontStyle.Bold);
@@ -61,7 +60,7 @@ namespace Agenda_Forms
                     dateTimeLabel.Location = new Point(200, initialY);
                     this.Controls.Add(dateTimeLabel);
 
-                    initialY += idLabel.Height + 10; // Spațiu vertical între activități
+                    initialY += idLabel.Height + 10; // Spatiu vertical intre activitati
                 }
             }
             catch (Exception ex)
@@ -70,23 +69,27 @@ namespace Agenda_Forms
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            AgendaAdd AgendaAdd = new AgendaAdd();
-            AgendaAdd.Show();
-        }
+        // butoane de comanda    
 
-        private void MenuButton_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
             Start Start = new Start();
             Start.Show();
         }
 
+        
+
         private void ExitButton_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void Optiunibtn_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form Modifica_Date = new Modifica_date();
+            Modifica_Date.Show();
         }
     }
 }

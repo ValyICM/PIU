@@ -15,3 +15,5 @@ D:\Projects\PIU-main\Agenda_project\Agenda_Forms\bin\Debug\NivelStocareDate.dll
 D:\Projects\PIU-main\Agenda_project\Agenda_Forms\bin\Debug\LibrarieModele.pdb
 D:\Projects\PIU-main\Agenda_project\Agenda_Forms\bin\Debug\NivelStocareDate.pdb
 D:\Projects\PIU-main\Agenda_project\Agenda_Forms\obj\Debug\Agenda_F.ECDE4337.Up2Date
+D:\Projects\PIU-main\Agenda_project\Agenda_Forms\obj\Debug\Agenda_Forms.Modifica_date.resources
+D:\Projects\PIU-main\Agenda_project\Agenda_Forms\obj\Debug\Agenda_Forms.Cautare.resources

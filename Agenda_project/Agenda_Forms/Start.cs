@@ -17,6 +17,8 @@ namespace Agenda_Forms
             InitializeComponent();
         }
 
+        //butoane de comanda
+
         private void ExitButton_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -27,6 +29,20 @@ namespace Agenda_Forms
             this.Hide();
             Form AgendaAdd  = new AgendaAdd();
             AgendaAdd.Show();
+        }
+
+        private void VeziAGbutton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form Agenda = new Agenda();
+            Agenda.Show();
+        }
+
+        private void Optiunibtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form Modifica_Date = new Modifica_date();
+            Modifica_Date.Show();
         }
     }
 }

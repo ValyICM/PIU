@@ -26,14 +26,20 @@ namespace Agenda_Forms
 
         private void Adaugabutton_Click(object sender, EventArgs e)
         {
+
+            if (!IsValid())
+            {
+                MessageBox.Show("Te rugăm să completezi toate câmpurile obligatorii.");
+                return;
+            }
+
             lastId++;
 
             string numeActivitate = Numetxt.Text;
-            string dataActivitate = Datatxt.Text;
-            string oraActivitate = Oratxt.Text;
+            string dataActivitate = cboZi.Text + "." + cboLuna.Text + "." + cboAn.Text;
+            string oraActivitate = cbostart.Text + " -> " + cbostop.Text;
 
             string idUnic = lastId.ToString();
-
 
             string filePath = "D:\\Projects\\PIU-main\\Agenda_project\\Agenda_project\\numeFisier.txt";
 
@@ -43,11 +49,15 @@ namespace Agenda_Forms
 
                 File.AppendAllText(filePath, activitateString + Environment.NewLine);
 
-                MessageBox.Show("Activitatea a fost adăugată în fișier.");
+                preAdauglbl.Text = "Activitatea a fost adaugata";
 
                 Numetxt.Text = "";
-                Datatxt.Text = "";
-                Oratxt.Text = "";
+                cboLuna.SelectedIndex = -1;
+                cboZi.SelectedIndex = -1;
+                cboAn.SelectedIndex = -1;
+                cbostart.SelectedIndex = -1;
+                cbostop.SelectedIndex = -1;
+               
             }
             catch (Exception ex) { }
 
@@ -74,6 +84,7 @@ namespace Agenda_Forms
                 }
             }
             catch (Exception ex) { }
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -89,5 +100,67 @@ namespace Agenda_Forms
             Form Agenda = new Agenda();
             Agenda.Show();
         }
+
+        private void cboState_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            preAdauglbl.Text ="Nume: " + Numetxt.Text + "\nData: " + cboZi.Text + "." + cboLuna.Text + "." + cboAn.Text + "\nInterval orar: " + cbostart.Text + "->" + cbostop.Text;
+        }
+
+        private bool IsValid()
+        {
+            bool isValid = true;
+
+            // Verifica numele
+            if (string.IsNullOrWhiteSpace(Numetxt.Text))
+            {
+                Numetxt.BackColor = Color.Red;
+                isValid = false;
+            }
+            else
+            {
+                Numetxt.BackColor = SystemColors.Window;
+            }
+
+            // Verifica data
+            if (cboZi.SelectedIndex == -1 || cboLuna.SelectedIndex == -1 || cboAn.SelectedIndex == -1)
+            {
+                if (cboZi.SelectedIndex == -1) cboZi.BackColor = Color.Red;
+                if (cboLuna.SelectedIndex == -1) cboLuna.BackColor = Color.Red;
+                if (cboAn.SelectedIndex == -1) cboAn.BackColor = Color.Red;
+                isValid = false;
+            }
+            else
+            {
+                cboZi.BackColor = SystemColors.Window;
+                cboLuna.BackColor = SystemColors.Window;
+                cboAn.BackColor = SystemColors.Window;
+            }
+
+            // Verifica ora
+            if (cbostart.SelectedIndex == -1 || cbostop.SelectedIndex == -1)
+            {
+                if (cbostart.SelectedIndex == -1) cbostart.BackColor = Color.Red;
+                if (cbostop.SelectedIndex == -1) cbostop.BackColor = Color.Red;
+                isValid = false;
+            }
+            else
+            {
+                cbostart.BackColor = SystemColors.Window;
+                cbostop.BackColor = SystemColors.Window;
+            }
+
+            return isValid;
+        }
+
+        private void ResetControlColors()
+        {
+            Numetxt.BackColor = SystemColors.Window;
+            cboZi.BackColor = SystemColors.Window;
+            cboLuna.BackColor = SystemColors.Window;
+            cboAn.BackColor = SystemColors.Window;
+            cbostart.BackColor = SystemColors.Window;
+            cbostop.BackColor = SystemColors.Window;
+        }
+
     }
 }

@@ -35,15 +35,15 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.BackButton = new System.Windows.Forms.Button();
-            this.MenuButton = new System.Windows.Forms.Button();
             this.ExitButton = new System.Windows.Forms.Button();
+            this.Optiunibtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Lucida Fax", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(387, 56);
+            this.label5.Location = new System.Drawing.Point(405, 56);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(49, 24);
             this.label5.TabIndex = 16;
@@ -53,7 +53,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Lucida Fax", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(225, 56);
+            this.label4.Location = new System.Drawing.Point(243, 56);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(60, 24);
             this.label4.TabIndex = 15;
@@ -92,7 +92,7 @@
             // BackButton
             // 
             this.BackButton.Font = new System.Drawing.Font("Lucida Fax", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BackButton.Location = new System.Drawing.Point(621, 56);
+            this.BackButton.Location = new System.Drawing.Point(662, 243);
             this.BackButton.Name = "BackButton";
             this.BackButton.Size = new System.Drawing.Size(126, 61);
             this.BackButton.TabIndex = 17;
@@ -100,21 +100,10 @@
             this.BackButton.UseVisualStyleBackColor = true;
             this.BackButton.Click += new System.EventHandler(this.button1_Click);
             // 
-            // MenuButton
-            // 
-            this.MenuButton.Font = new System.Drawing.Font("Lucida Fax", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MenuButton.Location = new System.Drawing.Point(621, 147);
-            this.MenuButton.Name = "MenuButton";
-            this.MenuButton.Size = new System.Drawing.Size(126, 61);
-            this.MenuButton.TabIndex = 18;
-            this.MenuButton.Text = "Meniu";
-            this.MenuButton.UseVisualStyleBackColor = true;
-            this.MenuButton.Click += new System.EventHandler(this.MenuButton_Click);
-            // 
             // ExitButton
             // 
             this.ExitButton.Font = new System.Drawing.Font("Lucida Fax", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ExitButton.Location = new System.Drawing.Point(621, 241);
+            this.ExitButton.Location = new System.Drawing.Point(662, 377);
             this.ExitButton.Name = "ExitButton";
             this.ExitButton.Size = new System.Drawing.Size(126, 61);
             this.ExitButton.TabIndex = 19;
@@ -122,13 +111,24 @@
             this.ExitButton.UseVisualStyleBackColor = true;
             this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
+            // Optiunibtn
+            // 
+            this.Optiunibtn.Font = new System.Drawing.Font("Lucida Fax", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Optiunibtn.Location = new System.Drawing.Point(662, 310);
+            this.Optiunibtn.Name = "Optiunibtn";
+            this.Optiunibtn.Size = new System.Drawing.Size(126, 61);
+            this.Optiunibtn.TabIndex = 20;
+            this.Optiunibtn.Text = "Opţiuni";
+            this.Optiunibtn.UseVisualStyleBackColor = true;
+            this.Optiunibtn.Click += new System.EventHandler(this.Optiunibtn_Click_1);
+            // 
             // Agenda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Optiunibtn);
             this.Controls.Add(this.ExitButton);
-            this.Controls.Add(this.MenuButton);
             this.Controls.Add(this.BackButton);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -151,7 +151,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button BackButton;
-        private System.Windows.Forms.Button MenuButton;
         private System.Windows.Forms.Button ExitButton;
+        private System.Windows.Forms.Button Optiunibtn;
     }
 }

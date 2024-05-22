@@ -7,12 +7,52 @@
       "RelativeMoniker": "D:0:0:{D78EAB94-E4BE-4FDD-9A51-EDA6A3CFB909}|Agenda_Forms\\Agenda_Forms.csproj|solutionrelative:agenda_forms\\agendaadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D78EAB94-E4BE-4FDD-9A51-EDA6A3CFB909}|Agenda_Forms\\Agenda_Forms.csproj|D:\\Projects\\PIU-main\\Agenda_project\\agenda_forms\\start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D78EAB94-E4BE-4FDD-9A51-EDA6A3CFB909}|Agenda_Forms\\Agenda_Forms.csproj|solutionrelative:agenda_forms\\start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D78EAB94-E4BE-4FDD-9A51-EDA6A3CFB909}|Agenda_Forms\\Agenda_Forms.csproj|d:\\projects\\piu-main\\agenda_project\\agenda_forms\\agendaadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D78EAB94-E4BE-4FDD-9A51-EDA6A3CFB909}|Agenda_Forms\\Agenda_Forms.csproj|solutionrelative:agenda_forms\\agendaadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D78EAB94-E4BE-4FDD-9A51-EDA6A3CFB909}|Agenda_Forms\\Agenda_Forms.csproj|D:\\Projects\\PIU-main\\Agenda_project\\agenda_forms\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D78EAB94-E4BE-4FDD-9A51-EDA6A3CFB909}|Agenda_Forms\\Agenda_Forms.csproj|d:\\projects\\piu-main\\agenda_project\\agenda_forms\\agendaadd.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78EAB94-E4BE-4FDD-9A51-EDA6A3CFB909}|Agenda_Forms\\Agenda_Forms.csproj|solutionrelative:agenda_forms\\agendaadd.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78EAB94-E4BE-4FDD-9A51-EDA6A3CFB909}|Agenda_Forms\\Agenda_Forms.csproj|d:\\projects\\piu-main\\agenda_project\\agenda_forms\\modifica_date.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D78EAB94-E4BE-4FDD-9A51-EDA6A3CFB909}|Agenda_Forms\\Agenda_Forms.csproj|solutionrelative:agenda_forms\\modifica_date.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78EAB94-E4BE-4FDD-9A51-EDA6A3CFB909}|Agenda_Forms\\Agenda_Forms.csproj|d:\\projects\\piu-main\\agenda_project\\agenda_forms\\modifica_date.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78EAB94-E4BE-4FDD-9A51-EDA6A3CFB909}|Agenda_Forms\\Agenda_Forms.csproj|solutionrelative:agenda_forms\\modifica_date.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78EAB94-E4BE-4FDD-9A51-EDA6A3CFB909}|Agenda_Forms\\Agenda_Forms.csproj|d:\\projects\\piu-main\\agenda_project\\agenda_forms\\cautare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78EAB94-E4BE-4FDD-9A51-EDA6A3CFB909}|Agenda_Forms\\Agenda_Forms.csproj|solutionrelative:agenda_forms\\cautare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78EAB94-E4BE-4FDD-9A51-EDA6A3CFB909}|Agenda_Forms\\Agenda_Forms.csproj|d:\\projects\\piu-main\\agenda_project\\agenda_forms\\cautare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D78EAB94-E4BE-4FDD-9A51-EDA6A3CFB909}|Agenda_Forms\\Agenda_Forms.csproj|solutionrelative:agenda_forms\\cautare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82EC5628-7E9F-4AF9-9B5E-B3F17E2ACD71}|Agenda_project\\Agenda_project.csproj|d:\\projects\\piu-main\\agenda_project\\agenda_project\\numefisier.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{82EC5628-7E9F-4AF9-9B5E-B3F17E2ACD71}|Agenda_project\\Agenda_project.csproj|solutionrelative:agenda_project\\numefisier.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78EAB94-E4BE-4FDD-9A51-EDA6A3CFB909}|Agenda_Forms\\Agenda_Forms.csproj|d:\\projects\\piu-main\\agenda_project\\agenda_forms\\modifica_date.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78EAB94-E4BE-4FDD-9A51-EDA6A3CFB909}|Agenda_Forms\\Agenda_Forms.csproj|solutionrelative:agenda_forms\\modifica_date.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78EAB94-E4BE-4FDD-9A51-EDA6A3CFB909}|Agenda_Forms\\Agenda_Forms.csproj|d:\\projects\\piu-main\\agenda_project\\agenda_forms\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D78EAB94-E4BE-4FDD-9A51-EDA6A3CFB909}|Agenda_Forms\\Agenda_Forms.csproj|solutionrelative:agenda_forms\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78EAB94-E4BE-4FDD-9A51-EDA6A3CFB909}|Agenda_Forms\\Agenda_Forms.csproj|d:\\projects\\piu-main\\agenda_project\\agenda_forms\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D78EAB94-E4BE-4FDD-9A51-EDA6A3CFB909}|Agenda_Forms\\Agenda_Forms.csproj|solutionrelative:agenda_forms\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78EAB94-E4BE-4FDD-9A51-EDA6A3CFB909}|Agenda_Forms\\Agenda_Forms.csproj|d:\\projects\\piu-main\\agenda_project\\agenda_forms\\start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D78EAB94-E4BE-4FDD-9A51-EDA6A3CFB909}|Agenda_Forms\\Agenda_Forms.csproj|solutionrelative:agenda_forms\\start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78EAB94-E4BE-4FDD-9A51-EDA6A3CFB909}|Agenda_Forms\\Agenda_Forms.csproj|d:\\projects\\piu-main\\agenda_project\\agenda_forms\\start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78EAB94-E4BE-4FDD-9A51-EDA6A3CFB909}|Agenda_Forms\\Agenda_Forms.csproj|solutionrelative:agenda_forms\\start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,19 +62,120 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "Cautare.cs",
+              "DocumentMoniker": "D:\\Projects\\PIU-main\\Agenda_project\\Agenda_Forms\\Cautare.cs",
+              "RelativeDocumentMoniker": "Agenda_Forms\\Cautare.cs",
+              "ToolTip": "D:\\Projects\\PIU-main\\Agenda_project\\Agenda_Forms\\Cautare.cs",
+              "RelativeToolTip": "Agenda_Forms\\Cautare.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T16:44:16.278Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cautare.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\PIU-main\\Agenda_project\\Agenda_Forms\\Cautare.cs",
+              "RelativeDocumentMoniker": "Agenda_Forms\\Cautare.cs",
+              "ToolTip": "D:\\Projects\\PIU-main\\Agenda_project\\Agenda_Forms\\Cautare.cs [Design]",
+              "RelativeToolTip": "Agenda_Forms\\Cautare.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T16:31:29.842Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Modifica_date.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\PIU-main\\Agenda_project\\Agenda_Forms\\Modifica_date.cs",
+              "RelativeDocumentMoniker": "Agenda_Forms\\Modifica_date.cs",
+              "ToolTip": "D:\\Projects\\PIU-main\\Agenda_project\\Agenda_Forms\\Modifica_date.cs [Design]",
+              "RelativeToolTip": "Agenda_Forms\\Modifica_date.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T12:47:16.264Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AgendaAdd.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\PIU-main\\Agenda_project\\Agenda_Forms\\AgendaAdd.cs",
+              "RelativeDocumentMoniker": "Agenda_Forms\\AgendaAdd.cs",
+              "ToolTip": "D:\\Projects\\PIU-main\\Agenda_project\\Agenda_Forms\\AgendaAdd.cs [Design]",
+              "RelativeToolTip": "Agenda_Forms\\AgendaAdd.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T14:49:07.782Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Start.cs",
+              "DocumentMoniker": "D:\\Projects\\PIU-main\\Agenda_project\\Agenda_Forms\\Start.cs",
+              "RelativeDocumentMoniker": "Agenda_Forms\\Start.cs",
+              "ToolTip": "D:\\Projects\\PIU-main\\Agenda_project\\Agenda_Forms\\Start.cs",
+              "RelativeToolTip": "Agenda_Forms\\Start.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA0wCwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T15:58:04.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Start.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\PIU-main\\Agenda_project\\Agenda_Forms\\Start.cs",
+              "RelativeDocumentMoniker": "Agenda_Forms\\Start.cs",
+              "ToolTip": "D:\\Projects\\PIU-main\\Agenda_project\\Agenda_Forms\\Start.cs [Design]",
+              "RelativeToolTip": "Agenda_Forms\\Start.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T15:51:34.175Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Agenda.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\PIU-main\\Agenda_project\\Agenda_Forms\\Agenda.cs",
+              "RelativeDocumentMoniker": "Agenda_Forms\\Agenda.cs",
+              "ToolTip": "D:\\Projects\\PIU-main\\Agenda_project\\Agenda_Forms\\Agenda.cs [Design]",
+              "RelativeToolTip": "Agenda_Forms\\Agenda.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T14:49:02.833Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Agenda.cs",
               "DocumentMoniker": "D:\\Projects\\PIU-main\\Agenda_project\\Agenda_Forms\\Agenda.cs",
               "RelativeDocumentMoniker": "Agenda_Forms\\Agenda.cs",
               "ToolTip": "D:\\Projects\\PIU-main\\Agenda_project\\Agenda_Forms\\Agenda.cs",
               "RelativeToolTip": "Agenda_Forms\\Agenda.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAowEYAAAAJAAAA",
+              "ViewState": "AQIAAEkAAAAAAAAAAAA0wFAAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T22:33:03.828Z"
+              "WhenOpened": "2024-05-22T15:59:27.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AgendaAdd.Designer.cs",
+              "DocumentMoniker": "D:\\Projects\\PIU-main\\Agenda_project\\Agenda_Forms\\AgendaAdd.Designer.cs",
+              "RelativeDocumentMoniker": "Agenda_Forms\\AgendaAdd.Designer.cs",
+              "ToolTip": "D:\\Projects\\PIU-main\\Agenda_project\\Agenda_Forms\\AgendaAdd.Designer.cs",
+              "RelativeToolTip": "Agenda_Forms\\AgendaAdd.Designer.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAuwNoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T15:50:30.79Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -44,22 +185,49 @@
               "RelativeDocumentMoniker": "Agenda_Forms\\AgendaAdd.cs",
               "ToolTip": "D:\\Projects\\PIU-main\\Agenda_project\\Agenda_Forms\\AgendaAdd.cs",
               "RelativeToolTip": "Agenda_Forms\\AgendaAdd.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADEAAAAhAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAwCgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T22:32:51.865Z",
+              "WhenOpened": "2024-05-22T15:49:06.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Start.cs",
-              "DocumentMoniker": "D:\\Projects\\PIU-main\\Agenda_project\\Agenda_Forms\\Start.cs",
-              "RelativeDocumentMoniker": "Agenda_Forms\\Start.cs",
-              "ToolTip": "D:\\Projects\\PIU-main\\Agenda_project\\Agenda_Forms\\Start.cs",
-              "RelativeToolTip": "Agenda_Forms\\Start.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 8,
+              "Title": "Modifica_date.Designer.cs",
+              "DocumentMoniker": "D:\\Projects\\PIU-main\\Agenda_project\\Agenda_Forms\\Modifica_date.Designer.cs",
+              "RelativeDocumentMoniker": "Agenda_Forms\\Modifica_date.Designer.cs",
+              "ToolTip": "D:\\Projects\\PIU-main\\Agenda_project\\Agenda_Forms\\Modifica_date.Designer.cs",
+              "RelativeToolTip": "Agenda_Forms\\Modifica_date.Designer.cs",
+              "ViewState": "AQIAALMAAAAAAAAAAAAjwIQAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T22:32:42.575Z"
+              "WhenOpened": "2024-05-22T15:17:23.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Modifica_date.cs",
+              "DocumentMoniker": "D:\\Projects\\PIU-main\\Agenda_project\\Agenda_Forms\\Modifica_date.cs",
+              "RelativeDocumentMoniker": "Agenda_Forms\\Modifica_date.cs",
+              "ToolTip": "D:\\Projects\\PIU-main\\Agenda_project\\Agenda_Forms\\Modifica_date.cs",
+              "RelativeToolTip": "Agenda_Forms\\Modifica_date.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAAI0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T13:15:47.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "numeFisier.txt",
+              "DocumentMoniker": "D:\\Projects\\PIU-main\\Agenda_project\\Agenda_project\\numeFisier.txt",
+              "RelativeDocumentMoniker": "Agenda_project\\numeFisier.txt",
+              "ToolTip": "D:\\Projects\\PIU-main\\Agenda_project\\Agenda_project\\numeFisier.txt",
+              "RelativeToolTip": "Agenda_project\\numeFisier.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-22T11:58:37.05Z",
+              "EditorCaption": ""
             }
           ]
         }
